@@ -1,0 +1,248 @@
+#all{
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.container{
+    width: 7rem;
+    height: 100%;
+    min-height: 1px ;
+    margin: 0 auto;
+}
+
+#header{
+    width: 100%;
+    height: 2.15rem;
+    background-image: linear-gradient(-90deg, #ec4cff 0%, #ffa8d5 100%);
+}
+
+
+.topRight{
+    height: 0.65rem;
+    /*background: #16b0dc;*/
+    margin: 0.1rem 0;
+    float: right;
+}
+
+.searchBox , .saveBox{
+    height: 0.65rem;
+    width: 0.65rem;
+    background:  #ffa7d5;
+    border-radius: 50%;
+    margin-left: 0.25rem;
+    /*position: relative;*/
+    float: left;
+    text-align: center;
+    line-height: 0.65rem;
+}
+
+.search , .save{
+    font-size: 0.4rem;
+    font-family: iconfont;
+    /*background: #16b0dc;*/
+    color: #ffffff;
+}
+
+
+.title{
+    width: 7.02rem;
+    margin: 0 auto;
+    height: 2.2rem;
+    /*background: palevioletred;*/
+    position: relative;
+}
+.title img{
+    width: 1.83rem;
+    height: 1.83rem;
+    border-radius: 0.2rem;
+    background: #16b0dc;
+    position: absolute;
+    top: -0.8rem;
+    left: 2.6rem;
+}
+
+.title .font {
+    width: 3.07rem;
+    height: 0.7rem;
+    font-size: 0.44rem;
+    color: rgba(0,0,0,0.85);
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    top: 1.2rem;
+    left: 1.95rem;
+}
+
+.ziliao {
+    width: 1.76rem;
+    height: 0.74rem;
+    background-color: #ffa7d5;
+    border-radius: 0.37rem;
+    margin:0.4rem auto;
+    font-size: 0.3rem;
+    color: #fffefe;
+    line-height: 0.74rem;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+}
+
+.three{
+    width: 5.06rem;
+    height: 1rem;
+    /*background: #16b0dc;*/
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.three .one{
+    width: 1.2rem;
+    height: 1rem;
+    /*background: #ff6700;*/
+    text-align: center;
+    padding: 0.12rem;
+}
+
+.one i{
+    font-family: iconfont;
+    font-size: 0.4rem;
+}
+
+.one p{
+    font-size: 0.24rem;
+    color: rgba(1,1,1,0.7);
+}
+
+.itemList{
+    width: 7.5rem;
+    height: 4.69rem;
+    /*background: #ff6700;*/
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 0.44rem auto;
+}
+
+.item {
+    width: 7.02rem;
+    height:0.91rem;
+    background-color: #ffffff;
+    box-shadow: 0 0.03rem 0.16rem 0 rgba(185, 185, 185, 0.65);
+    border-radius: 0.2rem;
+    padding:  0.075rem 0.1rem;
+    line-height: 0.835rem;
+    margin: 0 auto;
+}
+
+
+.circle {
+    width: 0.76rem;
+    height: 0.76rem;
+    background-color: #ffffff;
+    border: solid 0.01rem #b0b0b0;
+    border-radius: 50%;
+    float: left;
+    margin-right: 0.4rem;
+    text-align: center;
+    line-height: 0.76rem;
+}
+
+.circle i{
+    font-family: iconfont;
+    font-size: 0.4rem;
+}
+
+.item b {
+    font-size: 0.26rem;
+    font-weight:bold;
+    color:rgba(0,0,0,0.85);
+
+}
+
+.item .right {
+    width: 0.71rem;
+    height: 0.41rem;
+    background-color: #2f77f1;
+    border-radius: 0.21rem;
+    float: right;
+    font-size: 0.26rem;
+    color: rgba(255,255,255,0.7);
+    text-align: center;
+    line-height: 0.41rem;
+    margin-top: 0.2rem;
+}
+
+.dian{
+    float: right;
+    width: 0.09rem;
+    height: 0.09rem;
+    background-color: #a7a7a7;
+    margin-top: 0.35rem;
+    margin-right: 0.1rem;
+    border-radius: 50%;
+}
+
+.on{
+    float: right;
+    margin-left: 0.1rem;
+    color: #ec4cff;
+    font-family: iconfont;
+    font-size: 0.5rem;
+
+}
+
+#tab{
+    width: 100%;
+    height: 0.98rem;
+    background: #fff;
+    margin: 0 auto;
+    margin-top: 0.2rem;
+    box-shadow: 0 0.08rem 0.22rem 0.05rem rgba(190, 190, 190, 0.66);
+    position: fixed;
+    bottom: 0;
+}
+
+.tabContent{
+    width: 7.02rem;
+    height: 0.98rem;
+    display: flex;
+    justify-content: space-between;
+    /*background: #ff6700;*/
+    margin: 0 auto;
+    padding: 0.1rem 0;
+
+}
+.tabContent li{
+    height: 0.78rem;
+    width: 0.49rem;
+    /*background: #16b0dc;*/
+    text-align: center;
+
+}
+
+.tabContent li i{
+    color: #ccc;
+    font-family: iconfont;
+    font-size: 0.5rem;
+    font-weight: bold;
+
+}
+
+.tabContent li i.active{
+    color: #ed61fe;
+}
+
+.tabContent li p{
+    font-size: 0.18rem;
+    font-weight: bold;
+    color: rgba(0,0,0,0.6);
+}
+
+
+
+
+
